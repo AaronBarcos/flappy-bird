@@ -5,15 +5,21 @@ body {
 
 #my-canvas {
   background-color: darkgray;
+  display: none;
 }
 
-#start-btn, #restart-btn {
+#gameover-screen {
+  display: none;
+}
+
+#start-btn,
+#restart-btn {
   background-color: green;
   color: white;
   padding: 20px;
   font-size: 20px;
   margin-top: 40px;
-  border-radius: 10px; 
+  border-radius: 10px;
 }
 
 .container {
@@ -22,4 +28,13 @@ body {
   justify-content: center;
   align-items: center;
   margin: 50px;
+}
+
+#boton-pausa {
+  margin-top: 25px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  width: 30px;
+  text-align: center;
 }
